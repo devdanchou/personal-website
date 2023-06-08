@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+  background: #fafafa;
+  --tw-bg-opacity: 1;
+  /* background-color: fef9f8; */
+  background-size: center;
+}
+
+header {
+  background-color: rgba(255,255,255);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  color: #393a34;
+  text-decoration: none;
+}
+
+section {
+  margin: 2.5rem 0;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.root {
+  /* background-color: white; */
+  color: #0a0a13;
+  /* font-family: "Helvetica Neue","Droid Sans","Arial","sans-serif";*/
+  font-family: "Varela Round", arial, sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me-intro {
+  align-items: center;
+  background-color: #8fa94e29;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.about-me-fact-1{
+  font-size: 5rem;
+  margin: 1rem 0;
+}
+
+.about-me-fact-2 {
+  font-size: 3.5rem;
+  margin: 1rem 0;
+}
+
+.about-me-fact-3 {
+  font-size: 2.5rem;
+  margin: 1rem 0
+}
+
+.about-me-desc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-header{
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.about-me-desc-flex-container {
+  align-self: center;
+  display: flex;
+  margin: 0;
+  width: 75%
+}
+
+.about-me-desc-left {
+  margin: 0 2rem;
+}
+
+.about-me-desc-right {
+  margin: 0 2rem;
+  text-align: left;
+}
+
+.profile-image {
+  border-radius: 2rem;
+  width: 200px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon {
+  font-size:24px;
+}
+
+.work-experiences {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-experiences-container {
+  align-self: center;
+  flex-direction: column;
+  display: flex;
+  width: 75%;
+}
+
+.work-experience {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.role {
+  margin-right: 3rem;
+  text-align: right;
+  width: 20%
+}
+
+.role-description {
+  text-align: left;
+  width: 60%;
+}
+
+.cv{
+  justify-content: center;
+  font-family: "Varela Round", arial, sans-serif;
+  font-size: 1.5rem;
+}
